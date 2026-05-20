@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Convenience wrapper — put this on your PATH after building.
+# Usage: mycourses <command> [args]
+JAR="$(dirname "$(realpath "$0")")/target/mycourses-sync-1.0-SNAPSHOT.jar"
+if [ ! -f "$JAR" ]; then
+  echo "JAR not found. Run: mvn package" >&2
+  exit 1
+fi
+exec java -jar "$JAR" "$@"
