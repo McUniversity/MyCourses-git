@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <picocli.version>4.7.6</picocli.version>
         <okhttp.version>4.12.0</okhttp.version>
-        <jackson.version>2.17.2</jackson.version>
+        <jackson.version>2.18.9</jackson.version>
         <jgit.version>6.9.0.202403050737-r</jgit.version>
         <slf4j.version>2.0.13</slf4j.version>
         <logback.version>1.5.6</logback.version>
